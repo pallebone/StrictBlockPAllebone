@@ -80,12 +80,12 @@ Create your firewall rules under "firewall - wan" in order to allow and block th
 This simple rule allows Allowlist IP's to access the ports listed in alias "FirewalledServices" TCP or UDP and tags the label "Allowlist" for review in the logs.
 
 
-#### IPv4 * 	spamhaus_group  	* 	* 	* 	* 	* 	Evil spamhaus 
+##### IPv4 * 	spamhaus_group  	* 	* 	* 	* 	* 	Evil spamhaus 
 
 This simple block rule blocks any IPv4 address using any protocol, that is on the blocklist to any and all services on the firewall. It marks a label "Evil spamhaus" for review in the logs.
 
 
-#### IPv4 * 	StrictBlockPAllebone  	* 	* 	* 	* 	* 	Evil IPs 
+##### IPv4 * 	StrictBlockPAllebone  	* 	* 	* 	* 	* 	Evil IPs 
 
 Similar to the above rule, but for the blocklist I have created.
 
