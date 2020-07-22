@@ -30,34 +30,34 @@ Step 1: Create the Aliases for the blocklists we will be using, and allowlist if
 
 Each item created as follows:
 
-###### FirewalledServices	Port(s)	 	22,80,443,3389,19132
+##### FirewalledServices	Port(s)	 	22,80,443,3389,19132
 
 This is the services on the firewall that are open to the outside world and forwarded to various different internal computers behind the firewall.
 In my own case, I have an ssh server, a web server, an rdp server and a minecraft server.
 These ports must be specified as an alias so that we can add an allow rule later on to these allowed ports, from IP's we want to allow.
 
 
-###### StrictBlockPAllebone	URL Table (IPs)	 	https://raw.githubusercontent.com/pallebone/StrictBlockPAllebone/master/BlockIP.txt
+##### StrictBlockPAllebone	URL Table (IPs)	 	https://raw.githubusercontent.com/pallebone/StrictBlockPAllebone/master/BlockIP.txt
 
 This is a URL table to the blocklist.
 
 
-###### AllowlistedIPs	Host(s)	 	
+##### AllowlistedIPs	Host(s)	 	
 
 This is the aliases you will add IP's you want to allow into. In the screenshot you see a random test IP I used to check it worked. You will only add your own list of IP's you deem relevant, nothing else. They will not be blocked once you add them.
 
 
-###### spamhaus_drop	URL Table (IPs)	 	https://www.spamhaus.org/drop/drop.txt
+##### spamhaus_drop	URL Table (IPs)	 	https://www.spamhaus.org/drop/drop.txt
 
 The IP drop list from spamhaus.
 
 
-###### spamhaus_edrop	URL Table (IPs)	 	https://www.spamhaus.org/drop/edrop.txt
+##### spamhaus_edrop	URL Table (IPs)	 	https://www.spamhaus.org/drop/edrop.txt
 
 The IP edrop list from spamhaus
 
 
-###### spamhaus_group	Host(s)	 	spamhaus_drop,spamhaus_edrop
+##### spamhaus_group	Host(s)	 	spamhaus_drop,spamhaus_edrop
 
 An alias that contains the 2 spamhaus lists in one single alias so we can add just this alias to a firewall rule.
 
@@ -67,6 +67,6 @@ Step 2:
 Create your firewall rules under "firewall - wan" in order to allow and block the relevant traffic as follows:
 <img src="./Rules.png">
 
-###### IPv4 TCP/UDP 	AllowlistedIPs  	* 	* 	FirewalledServices  	* 	* 	Allowlist 
+##### IPv4 TCP/UDP 	AllowlistedIPs  	* 	* 	FirewalledServices  	* 	* 	Allowlist 
 
 This simple rule allows Allowlist IP's to access the ports listed in alias "FirewalledServices" and tags the label "Allowlist" 
