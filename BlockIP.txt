@@ -1,8 +1,8 @@
 ; New Lists:
-; Run from 22nd each month.
-; 22/07/2020 - Begin
-; IPs stay in the list for 12-13 months after detection and dont get removed until time expires.
+; 22/07/2020 - Begin list
+; IPs stay in the list for 12-13 months after detection and dont get removed until time expires. 
 ; Created by pallebone (fox icon) for public use
+; https://github.com/pallebone/StrictBlockPAllebone/blob/master/README.md
 ; EvilNormalDetect
 2.82.204.184
 13.66.49.171
@@ -302,5 +302,21 @@
 222.186.173.201
 222.186.180.130
 223.197.184.103
-; Time for internal use of approximate generation
+; End time for internal use of approximate generation
 ; Jul 22 10:30:32
+; EvilNormalDetect
+; IPSSuspectDetect
+92.63.197.70
+104.206.128.2
+; DangerousDetect
+40.114.126.163
+95.52.183.131
+82.202.247.216
+162.243.129.111
+185.151.243.192
+178.87.128.154
+192.241.209.168
+198.98.58.22
+208.100.26.228
+; End time for internal use of approximate generation
+; Jul 22 11:57:45
