@@ -95,6 +95,6 @@ The rules now are now created. You can check the aliases work by reviewing the d
 You can review the rules are matching traffic in the logs:
 <img src="./Logs.png">
 
-You may change the label to "Allowlist" to review logs that matched "Allowlist" in a similar way. 
+You may change the label to "Allowlist" to review logs that matched "Allowlist" in a similar way. Logging will need to be ON on the rules you wish to monitor in the live log.
 
 This concludes the setup. The list should update automatically every 7 days, protecting you from malicious traffic.
