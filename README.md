@@ -47,7 +47,7 @@ These ports must be specified as an alias so that we can add an allow rule later
 
 ##### StrictBlockPAllebone	URL Table (IPs)	 	https://raw.githubusercontent.com/pallebone/StrictBlockPAllebone/master/BlockIP.txt
 
-This is a URL table to the blocklist.
+This is a URL table to the blocklist. I set update period to 7 days.
 
 
 ##### AllowlistedIPs	Host(s)	 	
@@ -57,12 +57,12 @@ This is the aliases you will add IP's you want to allow into. In the screenshot 
 
 ##### spamhaus_drop	URL Table (IPs)	 	https://www.spamhaus.org/drop/drop.txt
 
-The IP drop list from spamhaus.
+The IP drop list from spamhaus. I set update period to 7 days.
 
 
 ##### spamhaus_edrop	URL Table (IPs)	 	https://www.spamhaus.org/drop/edrop.txt
 
-The IP edrop list from spamhaus
+The IP edrop list from spamhaus. I set update period to 7 days.
 
 
 ##### spamhaus_group	Host(s)	 	spamhaus_drop,spamhaus_edrop
