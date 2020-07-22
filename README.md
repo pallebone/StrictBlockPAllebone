@@ -5,6 +5,10 @@ Direct link to list:
 
 https://raw.githubusercontent.com/pallebone/StrictBlockPAllebone/master/BlockIP.txt
 
+# Notes/Warnings
+
+It is possible that a legitimate IP might be blocked by this list, so it is reccomended that if you find someone is blocked to your services by this list, that you have a whitelist setup to accomodate that possibility. This list is simply what I created, on my own, using my own tools and detection methods, if some legitimate IP gets blocked in error, I am sorry. I obviously cannot guarantee 100% accuracy nor should you expect it. 
+
 
 # How to use
 
@@ -44,7 +48,7 @@ This is a URL table to the blocklist.
 
 ##### AllowlistedIPs	Host(s)	 	
 
-This is the aliases you will add IP's you want to allow into. In the screenshot you see a random test IP I used to check it worked. You will only add your own list of IP's you deem relevant, nothing else. They will not be blocked once you add them.
+This is the aliases you will add IP's you want to allow into. In the screenshot you see a random test IP (obscured) I used to check it worked. You will only add your own list of IP's you deem relevant, nothing else. They will not be blocked once you add them.
 
 
 ##### spamhaus_drop	URL Table (IPs)	 	https://www.spamhaus.org/drop/drop.txt
@@ -69,4 +73,28 @@ Create your firewall rules under "firewall - wan" in order to allow and block th
 
 ##### IPv4 TCP/UDP 	AllowlistedIPs  	* 	* 	FirewalledServices  	* 	* 	Allowlist 
 
-This simple rule allows Allowlist IP's to access the ports listed in alias "FirewalledServices" and tags the label "Allowlist" 
+This simple rule allows Allowlist IP's to access the ports listed in alias "FirewalledServices" TCP or UDP and tags the label "Allowlist" for review in the logs.
+
+
+#### IPv4 * 	spamhaus_group  	* 	* 	* 	* 	* 	Evil spamhaus 
+
+This simple block rule blocks any IPv4 address using any protocol, that is on the blocklist to any and all services on the firewall. It marks a label "Evil spamhaus" for review in the logs.
+
+
+#### IPv4 * 	StrictBlockPAllebone  	* 	* 	* 	* 	* 	Evil IPs 
+
+Similar to the above rule, but for the blocklist I have created.
+
+
+
+Step 3)
+
+The rules now are now created. You can check the aliases work by reviewing the diagnostics - pftables area of the firewall:
+<img src="./PFtables.png">
+
+You can review the rules are matching traffic in the logs:
+<img src="./Logs.png">
+
+You may change the label to "Allowlist" to review logs that matched "allowlist" in a similar way. 
+
+This concludes the setup. The list should update automatically every 7 days, protecting you from malicious traffic.
