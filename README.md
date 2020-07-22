@@ -7,7 +7,7 @@ https://raw.githubusercontent.com/pallebone/StrictBlockPAllebone/master/BlockIP.
 
 # Notes/Warnings
 
-It is possible that a legitimate IP might be blocked by this list, so it is reccomended that if you find someone is blocked to your services by this list, that you have a whitelist setup to accomodate that possibility. This list is simply what I created, on my own, using my own tools and detection methods, if some legitimate IP gets blocked in error, I am sorry. I obviously cannot guarantee 100% accuracy nor should you expect it. 
+It is possible that a legitimate IP might be blocked by this list, so it is reccomended that if you find someone is blocked to your services by this list, that you have an allowlist setup to accomodate that possibility. This list is simply what I created, on my own, using my own tools and detection methods, if some legitimate IP gets blocked in error, I am sorry. I obviously cannot guarantee 100% accuracy nor should you expect it. 
 
 
 # How to use
