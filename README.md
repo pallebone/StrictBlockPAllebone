@@ -21,7 +21,7 @@ If you feel an IP is listed that should not be, raise a ticket and I will make a
 Note: This guide will show you how to setup the blocklist using a popular firewall, OPNSense. If using a different firewall, simply take the logical steps as approprate for your own firewall.
 
 Before I started this blocklist, I was using the spamhaus ip blocklists (https://www.spamhaus.org/drop/) drop, and edrop.
-I found that unfortunatly while 80% or so of malicious IP's were caught, quite a lot still got through.
+I found that unfortunatly while 50% or so of malicious IP's were caught, quite a lot still got through.
 As I wanted a greater net of blocked IP's, ie around 99%+ of malicious IP's blocked, I started creating my own list manually each day after manually reviewing the logs on my firewall.
 
 This means that the list is only updated, manually, on days I check my logs. Typically this is each day during the week, not at all on weekends, and if I go on holiday there may be a week when its not updated. For this reason, there is no real point in updating the IP blocklist on your firewall more often than around every 7 days (Set this to 3 days if you are insistant you need it refreshed more often). 7 days or 3 days are the values I am expecting you to use in production (and use myself).
