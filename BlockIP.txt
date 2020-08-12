@@ -2706,6 +2706,7 @@
 192.35.168.235
 193.32.161.145
 194.87.138.114
+196.52.43.87
 201.253.191.2
 206.81.12.195
 210.94.85.173
@@ -2714,7 +2715,7 @@
 216.138.224.11
 218.161.111.228
 ; End time for internal use of approximate generation DAYCONSIDEREDCOMPLETE
-; Aug 12 08:58:54
+; Aug 12 09:01:10
 ; EvilNormalDetect
 ; IPSSuspectDetect
 ; DangerousDetect
