@@ -88,7 +88,7 @@ I also now use the firehol list (http://iplists.firehol.org/) as it adds additio
 <img src="./AugGroup.png">
 
 So in effect you now have 4 blocklists at this point, the 2 spamhaus, the firehol and this one giving you 3 disparate sources of protection.
-All 4 lists can eithe update every 7 days or 3 days if you prefer a slightly higher update frequency. I have tested quite a bit and this frequency seems to work well in my opinion.
+All 4 lists can either update every 7 days or 3 days if you prefer a slightly higher update frequency. I have tested quite a bit and this frequency seems to work well in my opinion.
 
 
 
