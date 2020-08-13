@@ -8,6 +8,7 @@ Direct link to list:
 https://raw.githubusercontent.com/pallebone/StrictBlockPAllebone/master/BlockIP.txt
 
 Other Lists used:
+
 https://www.spamhaus.org/drop/drop.txt
 
 https://www.spamhaus.org/drop/edrop.txt
