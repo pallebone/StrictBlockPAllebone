@@ -1,5 +1,5 @@
 # StrictBlockPAllebone
-Manually curated IP Blocklist. Recommended only to update your firewalls weekly with this list. Please read how to use before implementing.
+Manually curated IP Blocklist. Recommended only to update your firewalls weekly with this list. Please read how to use before implementing. Anyone can use.
 
 ##### Quick Setup lists:
 
