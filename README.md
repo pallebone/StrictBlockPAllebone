@@ -1,9 +1,9 @@
 # StrictBlockPAllebone
 Manually curated IP Blocklist. Recommended only to update your firewalls weekly with this list. Please read how to use before implementing.
 
-Quick Setup lists:
+##### Quick Setup lists:
 
-Direct link to list:
+Direct link to this list:
 
 https://raw.githubusercontent.com/pallebone/StrictBlockPAllebone/master/BlockIP.txt
 
@@ -14,6 +14,8 @@ https://www.spamhaus.org/drop/drop.txt
 https://www.spamhaus.org/drop/edrop.txt
 
 https://raw.githubusercontent.com/ktsaou/blocklist-ipsets/master/firehol_level1.netset
+
+##### Setup expects you to implement all 4 lists for proper protection.
 
 
 # Notes/Warnings
