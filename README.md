@@ -1,9 +1,16 @@
 # StrictBlockPAllebone
 Manually curated IP Blocklist. Recommended only to update your firewalls weekly with this list. Please read how to use before implementing.
 
-Direct link to list:
+Quick Setup lists:
 
+Direct link to list:
 https://raw.githubusercontent.com/pallebone/StrictBlockPAllebone/master/BlockIP.txt
+
+Other Lists used:
+https://www.spamhaus.org/drop/drop.txt
+https://www.spamhaus.org/drop/edrop.txt
+https://raw.githubusercontent.com/ktsaou/blocklist-ipsets/master/firehol_level1.netset
+
 
 # Notes/Warnings
 
@@ -68,6 +75,13 @@ The IP edrop list from spamhaus. I set update period to 7 days.
 ##### spamhaus_group	Host(s)	 	spamhaus_drop,spamhaus_edrop
 
 An alias that contains the 2 spamhaus lists in one single alias so we can add just this alias to a firewall rule.
+
+##### EDIT August 2020
+I also now use the firehol list (http://iplists.firehol.org/) as it adds additional IP's to the overall blocking infrustructure and means I have to capute less IP's daily as they are already caught by a combination of spamhaus and firehol. I simply added another alias for firehol and added that to the group as per this screenshot:
+
+<img src="./AugGroup.png">
+
+So in effect you now have 4 blocklists at this point, the 2 spamhaus, the firehol and this one giving you 3 disparate sources of protection.
 
 
 
