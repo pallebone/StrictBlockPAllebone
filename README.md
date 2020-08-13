@@ -83,7 +83,7 @@ The IP edrop list from spamhaus. I set update period to 7 days.
 An alias that contains the 2 spamhaus lists in one single alias so we can add just this alias to a firewall rule.
 
 ##### EDIT August 2020
-I also now use the firehol list (http://iplists.firehol.org/) as it adds additional IP's to the overall blocking infrustructure and means I have to capture less IP's daily as they are already caught by a combination of spamhaus and firehol. I simply added another alias for firehol and added that to the group as per this screenshot:
+I also now use the firehol list (http://iplists.firehol.org/) as it adds additional IP's to the overall blocking infrustructure so there is an additional source of IP's. I simply added another alias for firehol and added that to the group as per this screenshot:
 
 <img src="./AugGroup.png">
 
