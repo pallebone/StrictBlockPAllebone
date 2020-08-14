@@ -2816,6 +2816,7 @@
 ; Aug 13 10:45:57
 ; EvilNormalDetect
 3.92.186.29
+13.58.208.20
 45.136.108.22
 46.8.247.205
 54.227.148.59
@@ -2826,7 +2827,6 @@
 220.93.231.73
 ; IPSSuspectDetect
 37.193.123.110
-45.136.108.22
 65.49.20.76
 66.240.236.119
 72.187.238.18
@@ -2906,7 +2906,7 @@
 216.218.206.71
 220.134.158.183
 ; End time for internal use of approximate generation DAYCONSIDEREDCOMPLETE
-; Aug 14 10:44:17
+; Aug 14 10:51:02
 ; EvilNormalDetect
 ; IPSSuspectDetect
 ; DangerousDetect
