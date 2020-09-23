@@ -8911,5 +8911,24 @@
 ; End time for internal use of approximate generation DAYCONSIDEREDCOMPLETE
 ; Sep 23 09:25:32
 ; EvilNormalDetect
+13.70.2.105
+13.71.5.194
+13.76.3.232
+13.88.219.172
+23.101.16.58
+40.91.64.204
+52.146.47.118
+52.162.136.167
+52.170.223.160
+52.251.55.166
+52.255.200.70
+191.235.89.58
+; IPSSuspectDetect
+; DangerousDetect
+36.154.8.5
+110.182.253.105
+; End time for internal use of approximate generation DAYCONSIDEREDCOMPLETE
+; Sep 23 09:51:36 List interum update because was adding some additional scanning to pickup additional IP's
+; EvilNormalDetect
 ; IPSSuspectDetect
 ; DangerousDetect
