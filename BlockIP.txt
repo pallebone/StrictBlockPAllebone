@@ -23741,5 +23741,54 @@
 ; End time for internal use of approximate generation DAYCONSIDEREDCOMPLETE
 ; Nov 3 09:17:12
 ; EvilNormalDetect
+91.5.174.211
+93.103.135.14
 ; IPSSuspectDetect
+;IPS is temporarily turned off while firewall is being updated.
+; DangerousDetect
+1.71.191.178
+14.117.184.123
+45.93.201.115
+45.235.16.88
+51.255.142.69
+61.1.34.158
+61.183.52.5
+61.189.238.80
+74.82.47.17
+78.38.67.212
+81.5.100.47
+85.113.194.65
+87.251.74.31
+87.251.74.86
+91.185.206.66
+93.100.114.116
+96.127.158.236
+97.113.167.29
+104.131.26.209
+104.200.108.126
+113.179.18.195
+114.32.240.93
+117.213.47.224
+120.133.136.35
+121.61.16.125
+122.117.234.96
+125.27.134.165
+179.208.176.208
+183.91.11.198
+183.250.159.242
+185.186.142.97
+189.14.45.113
+218.92.84.26
+218.106.120.122
+218.161.6.93
+220.133.203.90
+220.134.150.4
+220.135.251.195
+221.122.121.208
+222.173.76.6
+; End time for internal use of approximate generation DAYCONSIDEREDCOMPLETE
+; Nov 3 14:22:46
+; EvilNormalDetect
+; IPSSuspectDetect
+;IPS is temporarily turned off while firewall is being updated.
 ; DangerousDetect
