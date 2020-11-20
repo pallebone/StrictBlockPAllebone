@@ -1,3 +1,5 @@
+STATUS: Currently Alpha, due to it being less than 1 year old. This list will move to BETA after 1 year if there are no reported major issues. Currently it works fine (it is only an IP block list) but is expected to improve as time goes on.
+
 # StrictBlockPAllebone
 Manually curated IP Blocklist. Recommended only to update your firewalls weekly with this list. Please read how to use before implementing. Anyone can use.
 
