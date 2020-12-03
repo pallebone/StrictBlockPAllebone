@@ -24,11 +24,11 @@ Tip, I set the lists to update staggered so for example if you set your lists to
 
 # Notes/Warnings
 
-It is possible that a legitimate IP might be blocked by this list, so it is recommended that if you find someone is blocked to your services by this list, that you have an allowlist setup to accomodate that possibility. This list is simply what I created, on my own, using my own tools and detection methods, if some legitimate IP gets blocked in error, I am sorry. I obviously cannot guarantee 100% accuracy nor should you expect it. 
+It is possible that a legitimate IP might be blocked by this list, so it is recommended that if you find someone is blocked to your services by this list, that you have an allowlist setup to accomodate that possibility. This list is simply what I created, using my own tools and detection methods, if some legitimate IP gets blocked in error, I apologise. Having am allowlst will mitigate any blocked addresses you see in the logs.
 
 In addition, the list is fairly strict. Once an IP gets added, its considered risky and wont be removed for an entire 12-13 months or so. This might seem unfair, but risky networks have no place expecting their traffic to pass firewalls, and should be encoraged to take better care. This means this list is not for everyone, nor every application. Please make an assesment to see if this list works for you, before simply using it. It will block a lot, for a long time, so take that in mind.
 
-If you feel an IP is listed that should not be, raise a ticket and I will make an assesment. Please ask nicely and be prepared to answer some questions regarding how it got on there to begin with.
+If you feel an IP is listed that should not be, raise a ticket and I will make an assesment. Please ask nicely :)
 
 
 # How to use
