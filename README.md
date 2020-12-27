@@ -5,8 +5,8 @@ Manually curated IP Blocklist. Recommended only to update your firewalls weekly 
 
 ##### Quick Setup lists:
 
-Firewall Maximum Table Entries must be increased when using this list. Goto Firewall - Settings - Advanced - Firewall Maximum Table Entries:
-Default size is: 200000 - CHANGE THIS TO 800000 to allow more entries.
+##### Firewall Maximum Table Entries must be increased when using this list. Goto Firewall - Settings - Advanced - Firewall Maximum Table Entries:
+##### Default size is: 200000 - CHANGE THIS TO 800000 to allow more entries.
 
 Direct link to this list:
 
