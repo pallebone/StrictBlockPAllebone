@@ -35906,5 +35906,6 @@
 222.243.211.155
 ; Jan 8 14:36:58
 ; EvilNormalDetect
-; IPSSuspectDetect
-; DangerousDetect
+67.0.246.20
+67.4.34.38
+; IPSSuspect
