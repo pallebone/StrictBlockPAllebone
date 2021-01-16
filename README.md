@@ -49,7 +49,7 @@ Before I started this blocklist, I was using the spamhaus ip blocklists (https:/
 I found that unfortunatly while 50% or so of malicious IP's were caught, quite a lot still got through.
 As I wanted a greater net of blocked IP's, ie around 99%+ of malicious IP's blocked, I started creating my own list manually each day after manually reviewing the logs on my firewall.
 
-This means that the list is only updated, manually, on days I check my logs. Typically this is each day during the week, not at all on weekends, and if I go on holiday there may be a week when its not updated. For this reason, there is no real point in updating the IP blocklist on your firewall more often than around every 7 days (Set this to 3 days if you are insistant you need it refreshed more often). 7 days or 3 days are the values I am expecting you to use in production (and use myself). Despite this, it is still a very good list and helps me reduce my malicios traffic by a value greater than 99% which was my goal. You can review your own firewall logs and check this fro yourself when using this list.
+This means that the list is only updated, manually, on days I check my logs. Typically this is each day during the week, not at all on weekends, and if I go on holiday there may be a week when its not updated. For this reason, there is no real point in updating the IP blocklist on your firewall more often than around every 7 days (Set this to 3 days if you are insistant you need it refreshed more often). 7 days or 3 days are the values I am expecting you to use in production (and use myself). Despite this, it is still a very good list and helps me reduce my malicious traffic by a value greater than 99% which was my goal. You can review your own firewall logs and check this fro yourself when using this list.
 
 The below guide shows how to implement the blocklist, and optionally, create an allowlist for any IP's that you personally find are blocked, but want to allow access to services without having to remove the entire blocklist to do so.
 
@@ -72,7 +72,7 @@ These ports must be specified as an alias so that we can add an allow rule later
 
 ##### StrictBlockPAllebone	URL Table (IPs)	 	https://raw.githubusercontent.com/pallebone/StrictBlockPAllebone/master/BlockIP.txt
 
-This is a URL table to the blocklist. I set update period to 7 days.
+This is a URL table to the blocklist. I set update period to 7 days (or 3 if you prefer).
 
 
 ##### AllowlistedIPs	Host(s)	 	
@@ -82,12 +82,12 @@ This is the aliases you will add IP's you want to allow into. In the screenshot 
 
 ##### spamhaus_drop	URL Table (IPs)	 	https://www.spamhaus.org/drop/drop.txt
 
-The IP drop list from spamhaus. I set update period to 7 days.
+The IP drop list from spamhaus. I set update period to 7 days (or 3 if you prefer).
 
 
 ##### spamhaus_edrop	URL Table (IPs)	 	https://www.spamhaus.org/drop/edrop.txt
 
-The IP edrop list from spamhaus. I set update period to 7 days.
+The IP edrop list from spamhaus. I set update period to 7 days (or 3 if you prefer).
 
 
 ##### spamhaus_group	Host(s)	 	spamhaus_drop,spamhaus_edrop
