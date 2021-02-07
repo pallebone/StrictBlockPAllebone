@@ -1,4 +1,5 @@
 STATUS: Currently Alpha, due to it being less than 1 year old. This list will move to BETA after 1 year if there are no reported major issues. Currently it works fine (it is only an IP block list) but is expected to improve further as time goes on as more IP's are captured.
+
 EDIT: 07-Feb-2021 - IDSdetect is no longer needed as I have now improved detection by bringing it all inhouse to my own rolled systems. As a result this system is shutdown and IP's can now be distinguished between Dangerous and Evil without the need of IDS. All IPs are still detected this is just a catogorisation change and means I no longer rely on any 3rd party stuff to detect whats going on (and thus there is no way for evil botnets to try work around any off the shelf systems and bypass detection).
 
 # StrictBlockPAllebone
