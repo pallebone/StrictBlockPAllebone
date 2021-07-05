@@ -24,7 +24,7 @@ https://raw.githubusercontent.com/ktsaou/blocklist-ipsets/master/firehol_level1.
 
 Tip, I set the lists to update staggered so for example if you set your lists to update every 3 days, I would set the first list to update 3 days, the second list to update 3 days, 1 hour, the third list 3 days and 2 hours and so on to ensure if there is an issue at one time, then they dont all fail updating at the exact same time. There is some overlap on the lists by design so this method should ensure you always have some protection even in the case of a problem etc.
 
-##### Setup expects you to implement all 4 lists for proper protection. If you know how to add 4 blocklists already to your firewall you can do that without reading the rest of the readme. If you prefer some guidance, a short guade is below to assist you.
+##### Setup expects you to implement all 4 lists for proper protection. If you know how to add 4 blocklists already to your firewall you can do that without reading the rest of the readme. If you prefer some guidance, a short guide is below to assist you.
 
 
 # Notes/Warnings
