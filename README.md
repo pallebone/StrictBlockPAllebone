@@ -2,7 +2,7 @@ STATUS: Currently Beta as it is now 1 year old. This will no longer be Beta if t
 Ip's captured by my own setup to avoid off the shelf products that might be fingerprinted by malicious actors.
 
 # StrictBlockPAllebone
-Manually curated IP Blocklist of malicios IP's captured that scan/attempt to connect to services. Recommended to update your firewalls weekly with this list. Please read how to use before implementing. Anyone can use.
+Manually curated IP Blocklist of malicios IP's captured that scan/attempt to connect to services. Recommended to update your firewalls every few days with this list. Please read how to use before implementing. Anyone can use.
 
 ##### Quick Setup lists:
 
