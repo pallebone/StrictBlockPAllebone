@@ -62,7 +62,7 @@ The below guide shows how to implement the blocklist, and optionally, create an 
 
 # Implementing:
 
-As the list expects you to already have the spamhaus/firehol lists blocked, and is supplementing that list, you should begin by adding the spamhaus blocklists to your firewall.
+As the list expects you to already have the spamhaus/firehol lists blocked (ie try avoid only using 1 list and use a couple), and is supplementing those list (working together to provide more coverage), you should begin by adding the spamhaus blocklists to your firewall.
 
 Step 1: Create the Aliases for the blocklists we will be using (firehol missing from this particular screenshot), and allowlist if you desire:
 <img src="./Alias.png">
