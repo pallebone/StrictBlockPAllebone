@@ -1,6 +1,9 @@
 STATUS: Currently Beta as it is now 1 year old. This will no longer be Beta if there are no issues reported after 2 years.
 Ip's captured by my own setup to avoid off the shelf products that might be fingerprinted by malicious actors.
 
+###### Clarifying using the 4 lists suggested (This, Firehol, Spamhaus):
+The reason for suggesting you use this list in conjunction with the 2 Spamhaus and Firehol list is to provide some overlap and redundancy. If you only use 1 list then if it goes offline then you are unprotected for some period of time. Also as the method used to generate the lists is different there will be slightly different IP's in each list (and some overlap between them ie some IP's will be in more than 1 list). You dont Have to use the lists I suggest, for example if you really dont like firehol then you could use some other list (Dshield has a good list for example). Im simply passing on what worked well for me. My list I generate doesnt exclude IP's in the other lists or anything like that, I just might not pickup IP's they do. In short, feel free to ignore my suggested lists and use your own based on your own assesment, but this is working for me so its what I suggest for now. Maybe it will change one day if a list bcomes bad or someone lets me know of a better combination.
+
 # StrictBlockPAllebone
 Manually curated IP Blocklist of malicios IP's captured that scan/attempt to connect to services. Recommended to update your firewalls every few days with this list. Please read how to use before implementing. Anyone can use.
 
