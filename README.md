@@ -31,7 +31,9 @@ Tip: I set the lists to update staggered so for example if you set your lists to
 
 ###### Note!
 ###### Firewall Maximum Table Entries must be increased when using this list. Goto Firewall - Settings - Advanced - Firewall Maximum Table Entries:
-###### Default size is: 200000 - CHANGE THIS TO 800000 to allow more entries.
+###### Default size is: 200000 - CHANGE THIS TO 800000 to allow more entries. You can view how full the table entries are under Firewall - Aliases and will see something like this:
+<img src="./SizeTable.png">
+
 
 It is possible that a legitimate IP might be blocked by this list, so it is recommended that if you find someone is blocked to your services by this list, that you have an allowlist setup to accomodate that possibility. This list is simply what I created, using my own tools and detection methods, if some legitimate IP gets blocked in error, I apologise. Having an allowlist will mitigate any blocked addresses you see in the logs.
 
