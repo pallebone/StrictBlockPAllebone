@@ -1,4 +1,5 @@
-STATUS: Currently Beta as it is now 1 year old. This will no longer be Beta if there are no issues reported after 2 years.
+STATUS: Nearing production ready. Just want to capture some more IP's in a certain way that is effective.
+Currently Beta as it is now 1 year old. This will no longer be Beta if there are no issues reported after 2 years (or near enough as it seems pretty much ready to me).
 Ip's captured by my own setup to avoid off the shelf products that might be fingerprinted by malicious actors.
 
 ##### Clarifying using the 4 lists suggested (This, Firehol, Spamhaus):
