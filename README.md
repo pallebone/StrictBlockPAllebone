@@ -20,7 +20,7 @@ Other Lists used:
 
 https://www.spamhaus.org/drop/drop.txt
 
-https://www.spamhaus.org/drop/edrop.txt
+https://www.spamhaus.org/drop/edrop.txt (list depreciated find another list!)
 
 https://raw.githubusercontent.com/ktsaou/blocklist-ipsets/master/firehol_level1.netset
 
